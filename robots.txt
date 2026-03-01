@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /portal/
+
+Sitemap: https://keshavaeliteprojects.co.in/sitemap.xml
