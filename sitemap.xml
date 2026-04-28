@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home Page -->
   <url>
     <loc>https://keshavaeliteprojects.co.in/</loc>
-    <priority>1.00</priority>
+    <lastmod>2026-04-29</lastmod>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
-
-  <!-- About Page -->
   <url>
     <loc>https://keshavaeliteprojects.co.in/about/</loc>
-    <priority>0.80</priority>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
-
-  <!-- Services / Projects -->
   <url>
-    <loc>https://keshavaeliteprojects.co.in/projects/</loc>
-    <priority>0.80</priority>
+    <loc>https://keshavaeliteprojects.co.in/services/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
-
-  <!-- Contact Page -->
+  <url>
+    <loc>https://keshavaeliteprojects.co.in/for-schools/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://keshavaeliteprojects.co.in/courses/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://keshavaeliteprojects.co.in/careers/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://keshavaeliteprojects.co.in/impact/</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://keshavaeliteprojects.co.in/contact/</loc>
-    <priority>0.80</priority>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
-
-  <!-- Gallery or Portfolio (if exists) -->
-  <url>
-    <loc>https://keshavaeliteprojects.co.in/gallery/</loc>
-    <priority>0.64</priority>
-  </url>
-
-  <!-- Blog or News (if exists) -->
-  <url>
-    <loc>https://keshavaeliteprojects.co.in/blog/</loc>
-    <priority>0.64</priority>
-  </url>
-
 </urlset>

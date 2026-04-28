@@ -1,6 +1,11 @@
+# Keshava Elite Projects - robots.txt
+# https://keshavaeliteprojects.co.in
+
 User-agent: *
 Allow: /
 
+# Block private areas (currently no portal in production, kept for future)
 Disallow: /portal/
 
+# Sitemaps
 Sitemap: https://keshavaeliteprojects.co.in/sitemap.xml

@@ -1,98 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#001a33" />
+    <link rel="icon" type="image/png" href="/kep-logo.png" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshava Elite Projects | STEM & Robotics Excellence</title>
-    <meta name="google-site-verification" content="ZHQ7XofPfVSRyeFOFnx9LD058qGEUTNpqrIdqRpGoKo" />
+    <title>Keshava Elite Projects | STEM &amp; Robotics Education Excellence</title>
+    <meta
+      name="description"
+      content="Keshava Elite Projects builds STEM Robotics labs, Centres of Excellence, and K1–K12 innovation programs for schools and colleges across India."
+    />
+    <meta name="author" content="Keshava Elite Projects" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="canonical" href="https://keshavaeliteprojects.co.in/" />
-	<script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
 
-        .glass-card {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
+    <meta name="google-site-verification" content="ZHQ7XofPfVSRyeFOFnx9LD058qGEUTNpqrIdqRpGoKo" />
 
-        .text-gradient {
-            background: linear-gradient(to right, #0056b3, #003d80);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://keshavaeliteprojects.co.in/" />
+    <meta property="og:title" content="Keshava Elite Projects | STEM & Robotics Education Excellence" />
+    <meta
+      property="og:description"
+      content="Transforming schools and colleges into technology-driven innovation hubs through STEM Robotics Labs and Centre of Excellence Programs."
+    />
+    <meta property="og:site_name" content="Keshava Elite Projects" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:image" content="https://keshavaeliteprojects.co.in/kep-logo.png" />
 
-        /* Custom scrollbar for modern feel */
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 6px;
-        }
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://keshavaeliteprojects.co.in/" />
+    <meta name="twitter:title" content="Keshava Elite Projects | STEM & Robotics Education Excellence" />
+    <meta
+      name="twitter:description"
+      content="Transforming schools and colleges into technology-driven innovation hubs through STEM Robotics Labs and Centre of Excellence Programs."
+    />
+    <meta name="twitter:image" content="https://keshavaeliteprojects.co.in/kep-logo.png" />
 
-        .custom-scrollbar::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 10px;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background: #94a3b8;
-        }
-    </style>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#0056b3',
-                        primaryDark: '#003d80',
-                        accent: '#ff9800',
-                        dark: '#1a1a1a',
-                        light: '#f4f7f6',
-                    }
-                }
-            }
-        }
-    </script>
+    <link
+      rel="preload"
+      href="/fonts/inter-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload" as="image" href="/hero-lab.webp" fetchpriority="high" />
 
     <!-- GitHub Pages SPA: restore original path from ?p= query param set by 404.html -->
     <script>
-      (function() {
+      (function () {
         var redirect = window.location.search.slice(1);
         if (redirect && redirect.charAt(0) === 'p') {
           var path = decodeURIComponent(redirect.slice(2));
-          window.history.replaceState(null, null, path || '/');
+          window.history.replaceState(null, '', path || '/');
         }
       })();
     </script>
 
-
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react-dom": "https://esm.sh/react-dom@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
-    "recharts": "https://esm.sh/recharts@^3.7.0",
-    "framer-motion": "https://esm.sh/framer-motion@^12.34.0"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/assets/index-CyBzeT3G.js"></script>
-</head>
-
-<body class="bg-light text-dark">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://keshavaeliteprojects.co.in/#organization",
+        "name": "Keshava Elite Projects",
+        "url": "https://keshavaeliteprojects.co.in",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://keshavaeliteprojects.co.in/kep-logo.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": []
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://keshavaeliteprojects.co.in/#website",
+        "url": "https://keshavaeliteprojects.co.in",
+        "name": "Keshava Elite Projects",
+        "description": "STEM & Robotics Education Excellence",
+        "publisher": { "@id": "https://keshavaeliteprojects.co.in/#organization" },
+        "inLanguage": "en-IN"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "@id": "https://keshavaeliteprojects.co.in/#edu",
+        "name": "Keshava Elite Projects",
+        "url": "https://keshavaeliteprojects.co.in",
+        "logo": "https://keshavaeliteprojects.co.in/kep-logo.png",
+        "description": "Leading provider of STEM education infrastructure and robotics training programs for K-12 schools and colleges across India.",
+        "areaServed": { "@type": "Country", "name": "India" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Andhra Pradesh",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@keshavaeliteprojects.in",
+          "telephone": "+91-7659867411",
+          "url": "https://keshavaeliteprojects.co.in/contact",
+          "availableLanguage": ["English", "Hindi", "Telugu"]
+        },
+        "parentOrganization": { "@id": "https://keshavaeliteprojects.co.in/#organization" }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DASYjvnY.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-DFProk_n.js">
+    <link rel="modulepreload" crossorigin href="/assets/motion-C6AK7Bn0.js">
+    <link rel="modulepreload" crossorigin href="/assets/icons-CFvtAVam.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CnGQzK0R.css">
+  </head>
+  <body class="bg-light text-dark antialiased">
     <div id="root"></div>
-</body>
-
+  </body>
 </html>

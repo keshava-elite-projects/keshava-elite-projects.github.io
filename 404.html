@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Keshava Elite Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting... | Keshava Elite Projects</title>
+  <meta name="robots" content="noindex, nofollow" />
   <script>
-    // GitHub Pages SPA redirect trick
-    // Encodes the full path into a query param and redirects to index.html
+    // Known redirects for old/dead URLs (fixes 404 issues in Google Search Console)
+    var redirectMap = {
+      '/gallery': '/',
+      '/gallery/': '/'
+    };
+
     var l = window.location;
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, 1).join('/') +
-      '/?p=' + encodeURIComponent(l.pathname + l.search) +
-      (l.hash || '')
-    );
+    var path = l.pathname;
+
+    // Check if this is a known old URL that should redirect
+    if (redirectMap[path]) {
+      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + redirectMap[path]);
+    } else {
+      // GitHub Pages SPA redirect trick
+      // Encodes the full path into a query param and redirects to index.html
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1).join('/') +
+        '/?p=' + encodeURIComponent(l.pathname + l.search) +
+        (l.hash || '')
+      );
+    }
   </script>
 </head>
-<body></body>
+<body>
+  <noscript>
+    <h1>Keshava Elite Projects</h1>
+    <p>If you are not redirected, <a href="https://keshavaeliteprojects.co.in/">click here to go to the homepage</a>.</p>
+  </noscript>
+</body>
 </html>
